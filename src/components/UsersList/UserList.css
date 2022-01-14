@@ -1,0 +1,18 @@
+
+.table_container{
+  width: 80%;
+  height: 90%;
+}
+.table{
+  padding: 10px;
+  color: aliceblue;
+}
+.table td{
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px;
+}
+.table .col{
+  border-bottom: 2px solid white;
+}
+/* >>>>>>> aa45c2c842992aa7f46f25c05728d0d02f148b7a */

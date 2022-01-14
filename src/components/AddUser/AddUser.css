@@ -1,0 +1,229 @@
+.container_user {
+  background-color: #222d32;
+  display: flex;
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.login_container_user {
+  width: 75vw;
+  height: 75vh;
+  background-color: #1a2226;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: auto;
+}
+
+.login-form_user {
+  margin-top: 10px;
+  justify-content: center;
+  position: relative;
+}
+.field_container_user {
+  margin-bottom: 5px;
+  outline: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child_container_user {
+  width: 50vw;
+}
+.addUser_items {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.add_user {
+  padding: 1px;
+  font-size: medium;
+  color: blanchedalmond;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+}
+.button {
+  width: 20vw;
+  height: 45px;
+  background-color: rgb(82, 158, 6);
+  border: 0;
+  border-radius: 10px;
+  color: cornsilk;
+  font-size: medium;
+  font-weight: 400;
+}
+.loginbttm {
+  justify-content: center;
+  display: flex;
+  margin-top: 25px;
+}
+.input_form {
+  width: 50%;
+}
+
+.form-control-label{
+    font-size: 10px;
+}
+.main_field{
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+}
+input[type="text"] {
+  background-color: #1a2226;
+  border: none;
+  border-bottom: 2px solid #0db8de;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  margin-bottom: 5px;
+  padding-left: 0px;
+  color: #ecf0f5;
+  margin-top: 3px;
+  width: 100%;
+  font-size: 15px;
+}
+input[type="email"] {
+  background-color: #1a2226;
+  border: none;
+  border-bottom: 2px solid #0db8de;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  margin-bottom: 5px;
+  padding-left: 0px;
+  color: #ecf0f5;
+  margin-top: 3px;
+  width: 100%;
+  font-size: 15px;
+}
+input[type="date" i] {
+  align-items: center;
+  display: -webkit-inline-flex;
+  font-family: monospace;
+  padding-inline-start: 1px;
+  cursor: default;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 3px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+input[type="tel" ] {
+    align-items: center;
+    display: -webkit-inline-flex;
+    font-family: monospace;
+    padding-inline-start: 1px;
+    cursor: default;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 3px;
+    margin-right: 5px;
+    font-size: 15px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    color:  #ecf0f5;
+    border-bottom: 2px solid #0db8de;
+  }
+input[type= "file"]{
+    
+  }
+.profile_image {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.profile_pic{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.image_holder {
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 15px;
+  /* background-color: rgb(250, 237, 240); */
+  /* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fvector-images%2Funknown-profile-picture.html&psig=AOvVaw2mQZWaYraHXHZ7Zujl9anc&ust=1640809608530000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjLyaaqh_UCFQAAAAAdAAAAABAD); */
+}
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 2px solid #0db8de;
+  outline: 0;
+  background-color: #1a2226;
+  color: #ecf0f5;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0;
+}
+
+label {
+  margin-bottom: 0px;
+}
+.large_widget {
+  width: 40vw;
+}
+.small_wid {
+  display: flex;
+  width: 100%;
+}
+.small_cont {
+    width: 30vw;
+    padding: 10px;
+    
+}
+.child_container_small {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select_box{
+  margin-top: 10px;
+  height: 35px;
+  font-size: 15px;
+  width: 100%;
+}
+/* .icon{
+    color:rgb(240, 243, 236);
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin-top: 10px;
+} */
+.label_pic{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image_upload{
+    margin: auto;
+    width: 170px;
+    height: 25px;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.title_user{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ecf0f5;
+}

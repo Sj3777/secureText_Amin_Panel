@@ -1,0 +1,77 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  display: flex;
+}
+/* Main container */
+.Main{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+/* components container */
+.home_container{
+  background-color: #222D32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 4;
+  overflow: scroll;
+}
+/* home components */
+.home_cont{
+  width: 60vw;
+  height: 60vh;
+  background-color: #1A2226;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.items{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.add_home{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 300;
+  color: cornsilk;
+}
+.button{
+  width: 40vw;
+  height: 35px;
+  background-color: rgb(82, 158, 6);
+  border: 0;
+  border-radius: 10px;
+  color: cornsilk;
+  font-size: small;
+  font-weight: 400;
+}
+.title_home{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  color: cornsilk;
+  margin-top: 40px;
+}
+
+/* addUser componets */
+
+/* users List components */
+.users_card{
+  width: 250px;
+  height: 300px;
+  justify-content: space-around;
+}
+.grid_layout{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  grid-gap: 10px;
+}
